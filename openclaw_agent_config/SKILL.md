@@ -2,15 +2,14 @@
 
 > **Skill:** `youtube-summarizer`  
 > **Description:** Generates summaries, deep dives, and action points for YouTube videos.  
-> **Requires:** `python`
+> **Requires:**  ["python"]
 
----
 
 ## Instructions
 
 1. **Fetching Data:** If the user provides a URL (with or without a command), you **must** first execute:
    ```
-   python {baseDir}/fetch_transcript.py "<url>"
+   python C:\Users\adars\.openclaw\skills\youtube-summarizer\fetch_transcript.py "<url>"
    ```
 
 2. **Error Handling:** If the script returns an error, reply **exactly** with:
